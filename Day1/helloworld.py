@@ -1,0 +1,17 @@
+print(2+3)
+print(3-1)
+print(2*3)
+print(3/2)
+print(3**2)
+print(3%2)
+print(3//2)
+
+
+print(type(10))
+print(type(3.14))
+print(type(3+1j))
+print(type('Justwant'))
+print(type([1,2,3]))
+print(type({'name':'Justwant'}))
+print(type((1.2,2.3)))
+print(type({2,3,4,5,6}))
