@@ -9,5 +9,5 @@ lastName = 'Ningthoujam'
 print('First name is %s and last name is %s' %(firstName, lastName))
 ```
 
-### Start from 
-- Exercise 2
+### Start from
+- Exercise 10
