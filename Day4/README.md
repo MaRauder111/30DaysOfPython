@@ -10,4 +10,4 @@ print('First name is %s and last name is %s' %(firstName, lastName))
 ```
 
 ### Start from
-- Exercise 10
+- Exercise 18
