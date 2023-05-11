@@ -9,14 +9,26 @@ print(sqrt(valOne-valTwo))
 
 """
 
+# from cmath import sqrt
+
+
+# valOne = 2-10
+# valTwo = 3-8
+
+# resultOne = (valOne ** 2)
+# resultTwo = (valTwo ** 2)
+
+# result = resultOne - resultTwo
+# print(sqrt(result))
+
 from cmath import sqrt
 
+x = 10-2
+y = 8-3
 
-valOne = 2-10
-valTwo = 3-8
+xValue = (x ** 2)
+yValue = (y ** 2)
 
-resultOne = (valOne ** 2)
-resultTwo = (valTwo ** 2)
-
-result = resultOne - resultTwo
+print(x,y)
+result = int(xValue - yValue)
 print(sqrt(result))
