@@ -25,3 +25,16 @@ if person['is_marred']:
     print(person['first_name'], person['last_name'], "lives in", person['country'], ". He is married")
 else:
     print(person['first_name'], person['last_name'], "lives in", person['country'], ". He is not married")
+
+if 'skills' in person.keys():
+    print('found')
+    middle_idx = len(person['skills']) // 2
+    print(person['skills'][middle_idx])
+    if 'Node' in person['skills']:
+        print('found')
+        if ['Javascript', 'React'] == person['skills']:
+            print('Front End Developer')
+        elif ['Node', 'MongoDB', 'React'] == person['skills']:
+            print('Full Stack Developer')
+        else:
+            print("Unknown Title")
